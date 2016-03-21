@@ -1,0 +1,36 @@
+{
+  "name": "uber.publisher",
+  "version": "1.0.0",
+  "description": "A more flexible publisher. Supporting wildcards and hirachical events.",
+  "main": "src/publisher.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.0",
+    "chai": "^3.5.0",
+    "eventemitter2": "^1.0.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jscoverage": "^0.1.3",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.4.5",
+    "pubsub-js": "^1.5.3",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0",
+    "uber.objects": "0.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "grunt alltests"
+  },
+  "keywords": [
+    "publisher",
+    "subscriber",
+    "wildcard",
+    "observer"
+  ],
+  "author": "Pascal Pflaum",
+  "license": "ISC"
+}
